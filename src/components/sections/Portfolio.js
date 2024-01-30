@@ -1309,6 +1309,57 @@ const Portfolio = () => {
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
 
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+              className="img-fluid"
+              src="assets/portfolio/project-27.jpg"
+              alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Makdevelopers</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>Portfolio Website</span>
+                </li>
+
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>18 Days</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>AngularJS</span>
+                </li>
+              </ul>
+            </div>
+            <a
+              href="https://itsmaks.netlify.app/"
+              target="_blank"
+              className="custom-btn"
+            >
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
         {/* <SwiperSlide className="single-item swiper-slide">
           <div className="main-content">
             <div className="videocontainer">
